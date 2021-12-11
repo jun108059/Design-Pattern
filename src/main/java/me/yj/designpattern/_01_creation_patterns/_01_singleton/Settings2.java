@@ -1,4 +1,4 @@
-package me.yj.designpattern._01_creation_patterns._01_singleton.1_creation_patterns.1-1_singleton;
+package me.yj.designpattern._01_creation_patterns._01_singleton;
 
 /**
  * synchronized 사용해서 동기화 처리
