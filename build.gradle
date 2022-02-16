@@ -20,7 +20,16 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework:spring-web'
+    implementation 'org.springframework:spring-webmvc'
+    implementation 'org.springframework:spring-jdbc'
+    implementation 'org.springframework.security:spring-security-config'
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+    implementation 'org.modelmapper:modelmapper:2.4.5'
+    implementation 'org.aspectj:aspectjrt'
     compileOnly 'org.projectlombok:lombok'
+    compileOnly 'javax.servlet:javax.servlet-api'
+    runtimeOnly 'org.aspectj:aspectjweaver'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
