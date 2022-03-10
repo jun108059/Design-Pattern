@@ -1,4 +1,4 @@
-package me.yj.designpattern._03_behavioral_patterns._13_chain_of_responsibility._03_java;
+package me.yj.designpattern._03_behavioral_patterns._13_chain_of_responsibilities._03_java;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

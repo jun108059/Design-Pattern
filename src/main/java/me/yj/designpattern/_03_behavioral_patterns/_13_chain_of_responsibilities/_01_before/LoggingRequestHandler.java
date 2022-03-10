@@ -1,4 +1,4 @@
-package me.yj.designpattern._03_behavioral_patterns._13_chain_of_responsibility._01_before;
+package me.yj.designpattern._03_behavioral_patterns._13_chain_of_responsibilities._01_before;
 
 public class LoggingRequestHandler extends RequestHandler {
 

@@ -1,4 +1,4 @@
-package me.yj.designpattern._03_behavioral_patterns._13_chain_of_responsibility._02_after;
+package me.yj.designpattern._03_behavioral_patterns._13_chain_of_responsibilities._02_after;
 
 import me.yj.designpattern._03_behavioral_patterns._13_chain_of_responsibilities._01_before.Request;
 
