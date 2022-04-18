@@ -1,17 +1,14 @@
 package me.yj.designpattern._03_behavioral_patterns._21_strategy._04_custom;
 
-public class CreditCardStrategy implements PaymentStrategy {
-    private String name;
-    private String cardNumber;
-    private String cvc;
-    private String dateOfExpiry;
+import lombok.RequiredArgsConstructor;
 
-    public CreditCardStrategy(String name, String cardNumber, String cvc, String dateOfExpiry) {
-        this.name = name;
-        this.cardNumber = cardNumber;
-        this.cvc = cvc;
-        this.dateOfExpiry = dateOfExpiry;
-    }
+@RequiredArgsConstructor
+public class CreditCardStrategy implements PaymentStrategy {
+
+    private final String name;
+    private final String cardNumber;
+    private final String cvc;
+    private final String dateOfExpiry;
 
     @Override
     public void pay(int amount) {

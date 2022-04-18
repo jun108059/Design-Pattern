@@ -1,11 +1,9 @@
 package me.yj.designpattern._03_behavioral_patterns._21_strategy._04_custom;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
-@Getter
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class JobItem {
-    private Integer JobIdx;
-    private String JobTitle;
+    private final Integer JobIdx;
+    private final String JobTitle;
 }

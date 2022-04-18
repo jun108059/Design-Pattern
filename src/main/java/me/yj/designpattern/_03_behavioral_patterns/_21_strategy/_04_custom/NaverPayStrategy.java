@@ -1,13 +1,12 @@
 package me.yj.designpattern._03_behavioral_patterns._21_strategy._04_custom;
 
-public class NaverPayStrategy implements PaymentStrategy {
-    private String naverId;
-    private String naverPw;
+import lombok.RequiredArgsConstructor;
 
-    public NaverPayStrategy(String naverId, String naverPw) {
-        this.naverId = naverId;
-        this.naverPw = naverPw;
-    }
+@RequiredArgsConstructor
+public class NaverPayStrategy implements PaymentStrategy {
+
+    private final String naverId;
+    private final String naverPw;
 
     @Override
     public void pay(int amount) {
